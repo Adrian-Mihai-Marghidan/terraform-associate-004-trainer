@@ -1,0 +1,4 @@
+interface:
+  display_name: "Terraform Certification Tutor"
+  short_description: "Learn Terraform from zero for Associate 004"
+  default_prompt: "Use $terraform-certification-tutor to resume my next lesson and track exam readiness."

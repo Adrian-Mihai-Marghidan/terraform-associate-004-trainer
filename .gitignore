@@ -1,0 +1,39 @@
+# Terraform working directories, state, plans, and diagnostics
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.plan
+plan.out
+crash.log
+crash.*.log
+*.log
+*.log.*
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+*.tfvars
+*.tfvars.json
+!*.example.tfvars
+!*.example.tfvars.json
+# Keep .terraform.lock.hcl eligible for version control.
+# Personal learning evidence and answer keys
+/private/
+# Local toolchains, provider mirrors, and simulated infrastructure
+/.tools/
+**/.simulator/
+*.simulator.json
+*.simulator.json.lock
+# Python caches
+__pycache__/
+*.py[cod]
+# Local OS files and credential files
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key

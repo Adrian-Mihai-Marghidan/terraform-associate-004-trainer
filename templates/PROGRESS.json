@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "exam_target": "Terraform Associate 004",
+  "exam_terraform_version": "1.12",
+  "timezone": "Europe/Bucharest",
+  "current_lesson": "00.1",
+  "last_checkpoint": null,
+  "actual_cli_version": null,
+  "objectives": [
+    {
+      "id": "1a",
+      "lesson": "00.1",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "1b",
+      "lesson": "00.1",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "1c",
+      "lesson": "00.2",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "2a",
+      "lesson": "02.1",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "2b",
+      "lesson": "02.1",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "2c",
+      "lesson": "02.2",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "2d",
+      "lesson": "01.3",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "3a",
+      "lesson": "01.1",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "3b",
+      "lesson": "01.1",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "3c",
+      "lesson": "01.1",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "3d",
+      "lesson": "01.2",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "3e",
+      "lesson": "01.2",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "3f",
+      "lesson": "01.3",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "3g",
+      "lesson": "01.1",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "4a",
+      "lesson": "04.1",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "4b",
+      "lesson": "04.1",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "4c",
+      "lesson": "03.1",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "4d",
+      "lesson": "03.2",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "4e",
+      "lesson": "03.3",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "4f",
+      "lesson": "04.2",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "4g",
+      "lesson": "04.3",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "4h",
+      "lesson": "07.1",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "5a",
+      "lesson": "06.1",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "5b",
+      "lesson": "06.1",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "5c",
+      "lesson": "06.1",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "5d",
+      "lesson": "06.2",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "6a",
+      "lesson": "05.1",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "6b",
+      "lesson": "05.2",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "6c",
+      "lesson": "05.2",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "6d",
+      "lesson": "05.3",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "7a",
+      "lesson": "08.1",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "7b",
+      "lesson": "08.1",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "7c",
+      "lesson": "08.2",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "8a",
+      "lesson": "09.1",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "8b",
+      "lesson": "09.2",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "8c",
+      "lesson": "09.1",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    },
+    {
+      "id": "8d",
+      "lesson": "09.3",
+      "status": "not-started",
+      "exam_understanding": "not-assessed",
+      "practical_execution": "not-performed",
+      "evidence": [],
+      "last_assessment": null,
+      "next_review": null
+    }
+  ],
+  "practice_attempts": []
+}

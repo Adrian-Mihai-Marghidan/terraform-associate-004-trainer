@@ -1,0 +1,229 @@
+{
+  "exam": "004",
+  "terraform_version": "1.12",
+  "verified_date": "2026-10-10",
+  "objectives": [
+    {
+      "id": "1a",
+      "topic": "IaC meaning",
+      "lesson": "00.1",
+      "evidence": "concept"
+    },
+    {
+      "id": "1b",
+      "topic": "IaC benefits",
+      "lesson": "00.1",
+      "evidence": "concept"
+    },
+    {
+      "id": "1c",
+      "topic": "Cross-platform workflows",
+      "lesson": "00.2",
+      "evidence": "concept"
+    },
+    {
+      "id": "2a",
+      "topic": "Provider installation/versioning",
+      "lesson": "02.1",
+      "evidence": "cli"
+    },
+    {
+      "id": "2b",
+      "topic": "Provider responsibility",
+      "lesson": "02.1",
+      "evidence": "concept"
+    },
+    {
+      "id": "2c",
+      "topic": "Multiple provider configurations",
+      "lesson": "02.2",
+      "evidence": "cli"
+    },
+    {
+      "id": "2d",
+      "topic": "State purpose",
+      "lesson": "01.3",
+      "evidence": "cli"
+    },
+    {
+      "id": "3a",
+      "topic": "Workflow sequence",
+      "lesson": "01.1",
+      "evidence": "cli"
+    },
+    {
+      "id": "3b",
+      "topic": "Directory initialization",
+      "lesson": "01.1",
+      "evidence": "cli"
+    },
+    {
+      "id": "3c",
+      "topic": "Configuration validation",
+      "lesson": "01.1",
+      "evidence": "cli"
+    },
+    {
+      "id": "3d",
+      "topic": "Plan interpretation",
+      "lesson": "01.2",
+      "evidence": "cli"
+    },
+    {
+      "id": "3e",
+      "topic": "Change application",
+      "lesson": "01.2",
+      "evidence": "cli"
+    },
+    {
+      "id": "3f",
+      "topic": "Resource removal",
+      "lesson": "01.3",
+      "evidence": "cli"
+    },
+    {
+      "id": "3g",
+      "topic": "Configuration formatting",
+      "lesson": "01.1",
+      "evidence": "cli"
+    },
+    {
+      "id": "4a",
+      "topic": "Resources versus lookups",
+      "lesson": "04.1",
+      "evidence": "cli"
+    },
+    {
+      "id": "4b",
+      "topic": "Attribute references",
+      "lesson": "04.1",
+      "evidence": "cli"
+    },
+    {
+      "id": "4c",
+      "topic": "Inputs and outputs",
+      "lesson": "03.1",
+      "evidence": "cli"
+    },
+    {
+      "id": "4d",
+      "topic": "Collection/object types",
+      "lesson": "03.2",
+      "evidence": "cli"
+    },
+    {
+      "id": "4e",
+      "topic": "Expressions/functions",
+      "lesson": "03.3",
+      "evidence": "cli"
+    },
+    {
+      "id": "4f",
+      "topic": "Dependency ordering",
+      "lesson": "04.2",
+      "evidence": "cli"
+    },
+    {
+      "id": "4g",
+      "topic": "Custom conditions",
+      "lesson": "04.3",
+      "evidence": "cli"
+    },
+    {
+      "id": "4h",
+      "topic": "Secrets and Vault",
+      "lesson": "07.1",
+      "evidence": "concept"
+    },
+    {
+      "id": "5a",
+      "topic": "Module sources",
+      "lesson": "06.1",
+      "evidence": "concept"
+    },
+    {
+      "id": "5b",
+      "topic": "Module scope",
+      "lesson": "06.1",
+      "evidence": "cli"
+    },
+    {
+      "id": "5c",
+      "topic": "Module composition",
+      "lesson": "06.1",
+      "evidence": "cli"
+    },
+    {
+      "id": "5d",
+      "topic": "Module versioning",
+      "lesson": "06.2",
+      "evidence": "concept"
+    },
+    {
+      "id": "6a",
+      "topic": "Local state backend",
+      "lesson": "05.1",
+      "evidence": "cli"
+    },
+    {
+      "id": "6b",
+      "topic": "State concurrency locks",
+      "lesson": "05.2",
+      "evidence": "concept"
+    },
+    {
+      "id": "6c",
+      "topic": "Remote backend configuration",
+      "lesson": "05.2",
+      "evidence": "concept"
+    },
+    {
+      "id": "6d",
+      "topic": "Drift/state reconciliation",
+      "lesson": "05.3",
+      "evidence": "cli"
+    },
+    {
+      "id": "7a",
+      "topic": "Resource importing",
+      "lesson": "08.1",
+      "evidence": "cli"
+    },
+    {
+      "id": "7b",
+      "topic": "State inspection",
+      "lesson": "08.1",
+      "evidence": "cli"
+    },
+    {
+      "id": "7c",
+      "topic": "Diagnostic logging",
+      "lesson": "08.2",
+      "evidence": "cli"
+    },
+    {
+      "id": "8a",
+      "topic": "Hosted run workflow",
+      "lesson": "09.1",
+      "evidence": "concept"
+    },
+    {
+      "id": "8b",
+      "topic": "Team/governance features",
+      "lesson": "09.2",
+      "evidence": "concept"
+    },
+    {
+      "id": "8c",
+      "topic": "Workspace/project organization",
+      "lesson": "09.1",
+      "evidence": "concept"
+    },
+    {
+      "id": "8d",
+      "topic": "Hosted workflow integration",
+      "lesson": "09.3",
+      "evidence": "concept"
+    }
+  ]
+}
