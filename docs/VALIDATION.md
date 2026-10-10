@@ -66,9 +66,15 @@ See [REPOSITORY_REVIEW.md](REPOSITORY_REVIEW.md), [SIMULATOR_INTEGRATION.md](SIM
 
 ## Public package checks
 
-The GitHub workflow runs package, public-file, and Python regression checks without personal records, toolchains, or the sibling simulator. The [first hosted run passed](https://github.com/Adrian-Mihai-Marghidan/terraform_certification_tutor/actions/runs/38006324091) for commit f2be398 on 2026-10-10, Europe/Bucharest, using Ubuntu and Python 3.12. These checks do not exercise Terraform/the provider or prove new-platform simulator runtime support.
+The GitHub workflow runs package, public-file, and Python regression checks without personal records, toolchains, or the sibling simulator. The [first hosted run passed](https://github.com/Adrian-Mihai-Marghidan/terraform-associate-004-trainer/actions/runs/38006324091) for commit f2be398 on 2026-10-10, Europe/Bucharest, using Ubuntu and Python 3.12. These checks do not exercise Terraform/the provider or prove new-platform simulator runtime support.
 
 A clean export of all 80 staged public files passed package checks, the Git-free artifact/content guard, and all 42 Python tests both normally and under optimization on macOS arm64 with Python 3.12.3. The same export was initialized as a disposable Git repository and passed the workflow's package and indexed-content checks. Workflow YAML, event selection, read-only permissions, and pinned action references were checked locally before the successful hosted run.
 Fresh bootstrap with an explicitly selected timezone passed, and rerunning bootstrap on existing maintainer records preserved every record byte-for-byte. Private summaries are retained under private/development/portfolio-sharing; no personal files or local toolchains were copied into the public export.
+
+## Source publication checks
+
+The mentor repository was renamed to terraform-associate-004-trainer. The simulator was published independently with MIT licensing and source tag v0.1.1 (commit 829bba6). A fresh clone of that public tag matched all 16 reviewed source files and passed the indexed public-file guard.
+Simulator Go tests and a fresh build passed before publication; both binaries matched the installed immutable 0.1.1 checksums. The full 51-command real Terraform Resource Group milestone passed again in a disposable private lab. Learner state, infrastructure and progress were unchanged. These checks establish source availability and the existing macOS arm64 behavior; no provider registry, binary release, additional resources or Linux/WSL2 simulator runtime is claimed.
+Publication/clone evidence is retained locally under private/development/SIMULATOR_SOURCE_PUBLICATION.json; runtime evidence remains discoverable through LAST_SIMULATOR_VALIDATION.json.
 
 The native provider-lock helper also executed genuine providers lock and init -lockfile=readonly commands in private copies on macOS arm64. A dry run preserved the learner lock byte-for-byte; explicit publication created a missing lock only in a disposable fixture, followed by an unchanged dry run. These checks do not plan/apply resources or assess a learner. Local summaries are retained under ignored private/development/lock-validation and lock-publication.

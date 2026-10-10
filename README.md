@@ -1,4 +1,4 @@
-# Terraform Certification Mentor
+# Terraform Associate 004 Trainer
 
 A Codex-assisted study project for learning Terraform from zero toward HashiCorp Terraform Associate 004. Practical Azure lifecycle exercises use the **real Terraform CLI** with an independently maintained local Azure simulator.
 
@@ -10,7 +10,7 @@ Certification preparation is the primary goal. The repository also demonstrates 
 - **Reviewers:** read [PORTFOLIO.md](docs/PORTFOLIO.md) for architecture, decisions, evidence, and the limits of portfolio claims.
 - **Contributors:** follow [CONTRIBUTING.md](CONTRIBUTING.md) for checks and safe synthetic reproductions.
 
-**Required companion:** the separate terraform-azure-simulator implementation. The mentor alone cannot run Azure lifecycle exercises. See [acquisition and version requirements](docs/COMPANION_SIMULATOR.md); its public source and compatible release must be available before shared practical setup.
+**Required companion:** the separate [terraform-azure-simulator](https://github.com/Adrian-Mihai-Marghidan/terraform-azure-simulator), using its compatible [v0.1.1 source tag](https://github.com/Adrian-Mihai-Marghidan/terraform-azure-simulator/tree/v0.1.1). The mentor alone cannot run Azure lifecycle exercises. See [acquisition and version requirements](docs/COMPANION_SIMULATOR.md).
 
 ## How it works
 
@@ -40,7 +40,7 @@ There is no Azure account, authentication, cloud provisioning, portal, or backgr
 | Continuity | Per-learner private progress, review, gaps, history, and handoff templates; non-overwriting bootstrap |
 | Verification | Python regression tests, package/public-file checks, and disposable real Terraform validation |
 
-Full Resource Group runtime validation and all supplemental labs passed on macOS arm64 with Terraform 1.12.2. See [VALIDATION.md](docs/VALIDATION.md) for executed checks. Linux/WSL2 Terraform/provider runtime remains unverified. [Hosted package CI passed](https://github.com/Adrian-Mihai-Marghidan/terraform_certification_tutor/actions/runs/38006324091) on Ubuntu with Python 3.12; it checks the mentor package and Python regressions, without running Terraform or the simulator.
+Full Resource Group runtime validation and all supplemental labs passed on macOS arm64 with Terraform 1.12.2. See [VALIDATION.md](docs/VALIDATION.md) for executed checks. Linux/WSL2 Terraform/provider runtime remains unverified. [Hosted package CI passed](https://github.com/Adrian-Mihai-Marghidan/terraform-associate-004-trainer/actions/runs/38006324091) on Ubuntu with Python 3.12; it checks the mentor package and Python regressions, without running Terraform or the simulator.
 
 Curriculum coverage is a study/assessment map, not a claim that every future exercise is already implemented. Only Resource Groups are supported by the simulator; it is not a full AzureRM replacement. Data sources/import, remote backends, HCP functionality, and broader Azure behavior require explicit separate exercises or official explanations. See [LAB_COVERAGE.md](labs/LAB_COVERAGE.md) and [ROADMAP.md](docs/ROADMAP.md).
 

@@ -32,7 +32,7 @@ Include independent learning achievements only when supported by your own verifi
 
 ## Publication preparation
 
-1. Confirm the mentor source is available in the public terraform_certification_tutor repository and publish the simulator separately with a compatible source/release identity. The simulator endpoint was not publicly accessible during the 2026-10-10 unauthenticated check; complete setup requires both source projects.
+1. Keep both public source repositories available independently. The mentor is terraform-associate-004-trainer; the compatible simulator source is tagged v0.1.1. Complete practical setup requires both projects. Check source/tag compatibility again when publishing a later version.
 2. Include the owner-selected MIT license for original project source and preserve upstream terms. GitHub's [licensing guidance](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository) explains why the source repository needs explicit reuse terms.
 3. Run package/tests/public-file checks from a clean checkout or source export. Review staged contents and the Git author identity before creating public history.
 4. Run the full simulator milestone against the exact source/version being published. Preserve a public summary of behavior/platform; retain raw records locally. Verify package locks separately for additional platforms.
